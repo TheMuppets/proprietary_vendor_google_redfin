@@ -1,0 +1,34 @@
+service google_battery /vendor/bin/hw/vendor.google.google_battery@1.2-service-vendor
+    class hal
+    user system
+    group system
+
+on property:vendor.all.modules.ready=1 && property:vendor.all.devices.ready=1
+
+    chown system system /sys/class/power_supply/battery/charge_deadline
+    chown system system /sys/class/power_supply/battery/charge_deadline_dryrun
+
+    chown system system /sys/class/power_supply/battery/aacr_state
+    chown system system /sys/class/power_supply/battery/aacr_cycle_max
+    chown system system /sys/class/power_supply/battery/aacr_cycle_grace
+    chown system system /sys/class/power_supply/battery/bd_trickle_enable
+    chown system system /sys/class/power_supply/battery/bd_trickle_recharge_soc
+    chown system system /sys/class/power_supply/battery/bd_trickle_cnt
+    chown system system /sys/class/power_supply/battery/bd_trickle_dry_run
+    chown system system /sys/class/power_supply/battery/bd_trickle_reset_sec
+    chown system system /sys/class/power_supply/battery/health_safety_margin
+
+    chown system system /sys/class/power_supply/wireless/device/mitigate_threshold
+
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_drainto_soc
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_recharge_soc
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_recharge_voltage
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_resume_abs_temp
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_resume_soc
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_resume_temp
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_resume_time
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_trigger_temp
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_trigger_time
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_trigger_voltage
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_temp_enable
+    chown system system /sys/devices/platform/soc/soc:google,charger/bd_temp_dry_run
