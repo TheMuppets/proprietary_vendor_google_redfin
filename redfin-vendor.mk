@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/redfin/proprietary/product/etc/CarrierSettings/h3_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_se.pb \
     vendor/google/redfin/proprietary/product/etc/CarrierSettings/halebop_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/halebop_se.pb \
     vendor/google/redfin/proprietary/product/etc/CarrierSettings/homobile_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/homobile_it.pb \
+    vendor/google/redfin/proprietary/product/etc/CarrierSettings/ice_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ice_no.pb \
     vendor/google/redfin/proprietary/product/etc/CarrierSettings/idea_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/idea_in.pb \
     vendor/google/redfin/proprietary/product/etc/CarrierSettings/idmobile_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/idmobile_gb.pb \
     vendor/google/redfin/proprietary/product/etc/CarrierSettings/iliad_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/iliad_it.pb \
