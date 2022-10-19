@@ -2009,6 +2009,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/redfin/proprietary/vendor/lib64/libgooglecamera.proto_message.converter.ghawb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgooglecamera.proto_message.converter.ghawb.so \
     vendor/google/redfin/proprietary/vendor/lib64/libgooglecamera.proto_message.converter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgooglecamera.proto_message.converter.so \
     vendor/google/redfin/proprietary/vendor/lib64/libgooglecamera.proto_message.protos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgooglecamera.proto_message.protos.so \
+    vendor/google/redfin/proprietary/vendor/lib64/libgooglecamerahal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgooglecamerahal.so \
+    vendor/google/redfin/proprietary/vendor/lib64/libgooglecamerahalutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgooglecamerahalutils.so \
     vendor/google/redfin/proprietary/vendor/lib64/libgooglecamerahwl_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgooglecamerahwl_impl.so \
     vendor/google/redfin/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
     vendor/google/redfin/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
