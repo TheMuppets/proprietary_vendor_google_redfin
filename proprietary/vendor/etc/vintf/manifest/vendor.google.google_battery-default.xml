@@ -1,0 +1,6 @@
+<manifest version="1.0" type="device">
+    <hal format="aidl">
+        <name>vendor.google.google_battery</name>
+        <fqname>IGoogleBattery/default</fqname>
+    </hal>
+</manifest>

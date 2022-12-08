@@ -369,6 +369,18 @@ android_app_import {
 }
 
 android_app_import {
+	name: "EuiccGoogleOverlay",
+	owner: "google",
+	apk: "proprietary/system_ext/priv-app/EuiccGoogleOverlay/EuiccGoogleOverlay.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "EuiccSupportPixel",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",
@@ -1195,6 +1207,15 @@ prebuilt_etc_xml {
 	name: "rebootescrow-citadel",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/rebootescrow-citadel.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.google.google_battery-default",
+	owner: "google",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.google.google_battery-default.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,

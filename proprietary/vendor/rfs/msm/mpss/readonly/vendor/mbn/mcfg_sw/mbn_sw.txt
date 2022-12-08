@@ -91,6 +91,7 @@ mcfg_sw/generic/Pixel/NA/TMO_RCS_Test/pixel_TMO_RCS_Test/mcfg_sw.mbn
 mcfg_sw/generic/Pixel/NA/Telus/Commercial/pixel_CA/mcfg_sw.mbn
 mcfg_sw/generic/Pixel/NA/Telus/Koodo/pixel_CA/mcfg_sw.mbn
 mcfg_sw/generic/Pixel/NA/Telus/Lab/pixel_CA/mcfg_sw.mbn
+mcfg_sw/generic/Pixel/NA/Telus/PublicMobile/pixel_CA/mcfg_sw.mbn
 mcfg_sw/generic/Pixel/NA/USCC/pixel_Commercial/mcfg_sw.mbn
 mcfg_sw/generic/Pixel/NA/USCC_FI/pixel_Commercial/mcfg_sw.mbn
 mcfg_sw/generic/Pixel/NA/Verizon/pixel_hVoLTE/mcfg_sw.mbn
