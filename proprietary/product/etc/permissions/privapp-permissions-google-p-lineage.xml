@@ -76,6 +76,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.MANAGE_USB"/>
         <permission name="android.permission.MANAGE_USERS"/>
         <permission name="android.permission.MANAGE_WIFI_NETWORK_SELECTION"/>
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
         <permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
@@ -248,7 +249,6 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
         <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
-        <permission name="android.permission.READ_LOGS"/>
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <permission name="android.permission.WRITE_APN_SETTINGS"/>
     </privapp-permissions>
@@ -416,6 +416,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
         <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
         <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+        <permission name="android.permission.MODIFY_DEFAULT_AUDIO_EFFECTS"/>
         <permission name="android.permission.MODIFY_NETWORK_ACCOUNTING"/>
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
         <permission name="android.permission.NOTIFY_PENDING_SYSTEM_UPDATE"/>
@@ -663,12 +664,16 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.google.android.apps.privacy.wildlife">
-        <permission name="android.permission.CONTROL_VPN"/>
-    </privapp-permissions>
-
     <privapp-permissions package="com.google.android.apps.nest.dockmanager.app">
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.systemui.clocks">
+        <permission name="com.android.systemui.permission.PLUGIN" />
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.apps.healthdata">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
     </privapp-permissions>
 </permissions>

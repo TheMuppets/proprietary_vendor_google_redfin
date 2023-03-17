@@ -113,6 +113,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+        <permission name="android.permission.CUSTOMIZE_SYSTEM_UI"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.feedback">
@@ -203,6 +204,11 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     </privapp-permissions>
 
+    <privapp-permissions package="com.google.android.docksetup">
+        <permission name="android.permission.SHOW_KEYGUARD_MESSAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
     <privapp-permissions package="com.google.android.uvexposurereporter">
         <permission name="android.permission.ACCESS_CONTEXT_HUB"/>
         <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
@@ -217,4 +223,5 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.BATTERY_STATS"/>
         <permission name="android.permission.DUMP"/>
     </privapp-permissions>
+
 </permissions>
