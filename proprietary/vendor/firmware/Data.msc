@@ -1,4 +1,4 @@
-VERSION:857047542
+VERSION:857244156
 
 5,IIII,COEX_MWS_ANT_DIVERSITY: chnmsk completed Rx:0x%x, Tx:0x%x, Cal:%d, ReqId:%d 
 4,,COEX_MWS_ANT_DIVERSITY: CHMMGR_TX_CHM_CHANGED 
@@ -1825,7 +1825,7 @@ VERSION:857047542
 1638,I,FILS_DEBUG Parsing HLP Container - %d 
 1637,,FILS_DEBUG not a DHCP ACK 
 1636,IIIIIIII,FILS_DEBUG own_ip_addr %d.%d.%d.%d recvd ip addr %d.%d.%d.%d 
-1635,III,wlan_frmparse_get_mgmt_payload frm_len=%d iv_len=%d ivmic_len=%d 
+1635,IIIII,wlan_frmparse_get_mgmt_payload frm_len=%d iv_len=%d ivmic_len=%d htctrl_len=%u mac_hdr_len=%d 
 1634,II,BTM_OFLD_PARSE_BTM_REQ_GET_PREFERENCE_ERROR remaining len(%d) < ie_hdr_len(%d) 
 1633,II,BTM_OFLD_PARSE_BTM_REQ_GET_PREFERENCE Sub IE ID = %d, Length = %d 
 1632,II,BTM_OFLD_PARSE_BTM_REQ_GET_PREFERENCE_ERROR remaining length(%d) < ie_len(%d) 
