@@ -1,0 +1,6 @@
+<manifest version="1.0" type="device">
+    <hal format="aidl">
+        <name>vendor.google.wireless_charger</name>
+        <fqname>IWirelessCharger/default</fqname>
+    </hal>
+</manifest>

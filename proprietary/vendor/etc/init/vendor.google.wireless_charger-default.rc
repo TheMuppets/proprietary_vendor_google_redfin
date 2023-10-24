@@ -1,0 +1,4 @@
+service wireless_charger_AIDL /vendor/bin/hw/vendor.google.wireless_charger-default
+    class hal
+    user system
+    group system
