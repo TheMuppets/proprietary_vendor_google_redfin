@@ -1,0 +1,3 @@
+[lfs]
+    url = "https://lfs.undocumented.software/lfs/blobs.git/info/lfs"
+    pushurl = "ssh://git@lfs.undocumented.software/lfs/blobs.git"
