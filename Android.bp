@@ -431,18 +431,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PixelNfc",
-	owner: "google",
-	apk: "proprietary/system_ext/priv-app/PixelNfc/PixelNfc.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "RilConfigService",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/RilConfigService/RilConfigService.apk",
