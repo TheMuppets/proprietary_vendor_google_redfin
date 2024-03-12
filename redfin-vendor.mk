@@ -1173,6 +1173,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/redfin/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/google/redfin/proprietary/vendor/lib/libpowercallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercallback.so \
     vendor/google/redfin/proprietary/vendor/lib/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercore.so \
+    vendor/google/redfin/proprietary/vendor/lib/libprotobuf-cpp-full-21.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-21.7.so \
+    vendor/google/redfin/proprietary/vendor/lib/libprotobuf-cpp-lite-21.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-21.7.so \
     vendor/google/redfin/proprietary/vendor/lib/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpvr.so \
     vendor/google/redfin/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
     vendor/google/redfin/proprietary/vendor/lib/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcc_file_agent.so \
@@ -1753,6 +1755,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/redfin/proprietary/vendor/lib64/libpower_anomaly_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_anomaly_data.so \
     vendor/google/redfin/proprietary/vendor/lib64/libpowercallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowercallback.so \
     vendor/google/redfin/proprietary/vendor/lib64/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowercore.so \
+    vendor/google/redfin/proprietary/vendor/lib64/libprotobuf-cpp-full-21.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-21.7.so \
+    vendor/google/redfin/proprietary/vendor/lib64/libprotobuf-cpp-lite-21.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-21.7.so \
     vendor/google/redfin/proprietary/vendor/lib64/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpvr.so \
     vendor/google/redfin/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/google/redfin/proprietary/vendor/lib64/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcc_file_agent.so \
