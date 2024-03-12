@@ -608,6 +608,15 @@ dex_import {
 	system_ext_specific: true,
 }
 
+prebuilt_etc_xml {
+	name: "manifest_wifi_ext_aidl",
+	owner: "google",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext_aidl.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
 cc_prebuilt_library_shared {
 	name: "libMpeg4SwEncoder",
 	owner: "google",
@@ -853,15 +862,6 @@ prebuilt_etc_xml {
 	name: "manifest_input.processor-service",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_input.processor-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_wifi_ext_aidl",
-	owner: "google",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext_aidl.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
