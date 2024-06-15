@@ -1153,6 +1153,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/redfin/proprietary/vendor/lib/libmaxxaudioqdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmaxxaudioqdsp.so \
     vendor/google/redfin/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/google/redfin/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
+    vendor/google/redfin/proprietary/vendor/lib/libmedia_ecoservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmedia_ecoservice.so \
     vendor/google/redfin/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
     vendor/google/redfin/proprietary/vendor/lib/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket.so \
     vendor/google/redfin/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
@@ -1725,6 +1726,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/redfin/proprietary/vendor/lib64/libmaxxaudioqdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmaxxaudioqdsp.so \
     vendor/google/redfin/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/google/redfin/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
+    vendor/google/redfin/proprietary/vendor/lib64/libmedia_ecoservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmedia_ecoservice.so \
     vendor/google/redfin/proprietary/vendor/lib64/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminkdescriptor.so \
     vendor/google/redfin/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
     vendor/google/redfin/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
