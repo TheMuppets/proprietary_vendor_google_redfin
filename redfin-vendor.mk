@@ -674,6 +674,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/redfin/proprietary/vendor/etc/init/android.hardware.authsecret-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.authsecret-service.citadel.rc \
     vendor/google/redfin/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.2-service.fpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.2-service.fpc.rc \
     vendor/google/redfin/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/google/redfin/proprietary/vendor/etc/init/android.hardware.camera.provider@2.7-service-google.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.7-service-google.rc \
     vendor/google/redfin/proprietary/vendor/etc/init/android.hardware.confirmationui@1.0-service-google.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.confirmationui@1.0-service-google.rc \
     vendor/google/redfin/proprietary/vendor/etc/init/android.hardware.drm-service.widevine-v17.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine-v17.rc \
     vendor/google/redfin/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
@@ -1591,6 +1592,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/redfin/proprietary/vendor/lib64/lib_aion_buffer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_aion_buffer.so \
     vendor/google/redfin/proprietary/vendor/lib64/lib_goog_chi_node_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_goog_chi_node_utils.so \
     vendor/google/redfin/proprietary/vendor/lib64/lib_goog_metadata_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_goog_metadata_utils.so \
+    vendor/google/redfin/proprietary/vendor/lib64/lib_profiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_profiler.so \
+    vendor/google/redfin/proprietary/vendor/lib64/lib_sensor_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_sensor_listener.so \
     vendor/google/redfin/proprietary/vendor/lib64/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liba2dpoffload.so \
     vendor/google/redfin/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
     vendor/google/redfin/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
@@ -2165,6 +2168,7 @@ PRODUCT_PACKAGES += \
     gpu_profiling_vulkan_layer \
     com.google.android.camera.experimental2020 \
     android.hardware.authsecret-service.citadel \
+    android.hardware.camera.provider@2.7-service-google \
     android.hardware.confirmationui@1.0-service-google \
     android.hardware.identity.strongbox \
     android.hardware.keymaster@4.1-service.citadel \
