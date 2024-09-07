@@ -132,7 +132,7 @@ PRODUCT_PACKAGES += \
     com.google.android.camera.extensions \
     google-ril \
     qcrilhook \
-    manifest_wifi_ext_aidl \
+    manifest_wifi_ext_aidl.xml \
     vendor.google.wifi_ext-service-vendor
 
 PRODUCT_PACKAGES += \
@@ -1680,21 +1680,21 @@ PRODUCT_PACKAGES += \
     adreno_graphics_driver \
     gpu_profiling_vulkan_layer \
     com.google.android.camera.experimental2020 \
-    android.hardware.authsecret-service.citadel \
-    android.hardware.camera.provider@2.7-service-google \
-    android.hardware.confirmationui@1.0-service-google \
-    android.hardware.identity.strongbox \
-    android.hardware.keymaster@4.1-service.citadel \
-    android.hardware.neuralnetworks@1.3-service-qti \
-    android.hardware.oemlock-service.citadel \
-    android.hardware.weaver-service.citadel \
-    android.hardware.weaver@1.0-service.citadel \
-    c2_manifest_vendor \
-    manifest_android.hardware.drm-service.widevine-v17 \
-    manifest_input.processor-service \
-    rebootescrow-citadel \
-    vendor.google.google_battery-default \
-    vendor.google.wireless_charger-default \
+    android.hardware.authsecret-service.citadel.xml \
+    android.hardware.camera.provider@2.7-service-google.xml \
+    android.hardware.confirmationui@1.0-service-google.xml \
+    android.hardware.identity.strongbox.xml \
+    android.hardware.keymaster@4.1-service.citadel.xml \
+    android.hardware.neuralnetworks@1.3-service-qti.xml \
+    android.hardware.oemlock-service.citadel.xml \
+    android.hardware.weaver-service.citadel.xml \
+    android.hardware.weaver@1.0-service.citadel.xml \
+    c2_manifest_vendor.xml \
+    manifest_android.hardware.drm-service.widevine-v17.xml \
+    manifest_input.processor-service.xml \
+    rebootescrow-citadel.xml \
+    vendor.google.google_battery-default.xml \
+    vendor.google.wireless_charger-default.xml \
     KmInstallKeybox \
     PktRspTest \
     adpl \
