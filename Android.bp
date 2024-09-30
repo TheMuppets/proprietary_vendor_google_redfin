@@ -15,23 +15,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.google.wifi_ext-V3-ndk",
-	owner: "google",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.google.wifi_ext-V3-ndk.so"],
-			shared_libs: ["libbinder_ndk", "android.hardware.wifi-V2-ndk", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libdmengine",
 	owner: "google",
 	strip: {
@@ -902,33 +885,6 @@ dex_import {
 	owner: "google",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
 	system_ext_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_wifi_ext_aidl.xml",
-	owner: "google",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext_aidl.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "vendor.google.wifi_ext-service-vendor",
-	owner: "google",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/hw/vendor.google.wifi_ext-service-vendor"],
-			shared_libs: ["libbase", "libbinder_ndk", "libcutils", "liblog", "libnl", "libutils", "libwifi-hal", "libwifi-system-iface", "libxml2", "libprotobuf-cpp-lite", "google_wifi_firmware_config_info_cc_proto", "android.hardware.wifi-V2-ndk", "vendor.google.wifi_ext-V3-ndk", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-	soc_specific: true,
 }
 
 install_symlink {
