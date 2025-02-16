@@ -506,7 +506,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/redfin/proprietary/vendor/dsp/cdsp/libvpt_preproc.so:$(TARGET_COPY_OUT_VENDOR)/dsp/cdsp/libvpt_preproc.so \
     vendor/google/redfin/proprietary/vendor/dsp/cdsp/libvpt_preproc_postproc.so:$(TARGET_COPY_OUT_VENDOR)/dsp/cdsp/libvpt_preproc_postproc.so \
     vendor/google/redfin/proprietary/vendor/dsp/cdsp/ubwcdma_dynlib.so:$(TARGET_COPY_OUT_VENDOR)/dsp/cdsp/ubwcdma_dynlib.so \
-    vendor/google/redfin/proprietary/vendor/etc/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_cfg.xml \
     vendor/google/redfin/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/google/redfin/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/google/redfin/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -618,7 +617,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/redfin/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/google/redfin/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/google/redfin/proprietary/vendor/etc/init/init_citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_citadel.rc \
-    vendor/google/redfin/proprietary/vendor/etc/init/ipacm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm.rc \
     vendor/google/redfin/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/google/redfin/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/google/redfin/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
@@ -1582,7 +1580,6 @@ PRODUCT_PACKAGES += \
     libgooglecamerahwl_impl \
     libhalide_hexagon_host \
     libhexagon_nn_stub \
-    libipanat \
     libmotion_ae \
     libnos \
     libnos_citadeld_proxy \
@@ -1592,7 +1589,6 @@ PRODUCT_PACKAGES += \
     libnos_feature \
     libnos_transport \
     libnosprotos \
-    liboffloadhal \
     libpower_anomaly_data \
     libqmi_modem_svc \
     libqmi_thermal-google-1 \
@@ -1721,7 +1717,6 @@ PRODUCT_PACKAGES += \
     imsqmidaemon \
     imsrcsd \
     init.qti.chg_policy \
-    ipacm \
     irsc_util \
     loc_launcher \
     lowi-server \
