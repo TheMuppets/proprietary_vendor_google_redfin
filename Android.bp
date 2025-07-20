@@ -330,6 +330,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libsecureuisvc_jni.so",
             ],
             shared_libs: [
+                "libgui_shim",
                 "liblog",
                 "libsecureui_svcsock_system",
                 "libcutils",
